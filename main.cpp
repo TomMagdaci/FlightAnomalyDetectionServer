@@ -1,8 +1,6 @@
 #include <iostream>
-//#include "MainTrain.h"
-#include "MainTrain_ex6.h"
+#include "MainTrain.h"
 int main() {
-    //mainTrain();
-    mainTrainEX6();
+    mainTrain();
     return 0;
 }
