@@ -20,7 +20,7 @@
 #include <time.h>
 //#include "Server.h"
 
-#include "MainTrain_ex6.h"
+#include "MainTrain.h"
 
 
 
@@ -154,7 +154,7 @@ size_t check(string outputFile,string expectedOutputFile){
 }
 
  
-int mainTrainEX6(){
+int mainTrain(){
 	srand (time(NULL));
 	int port=5000+ rand() % 1000;		
 	string outputFile1="output_menu";
