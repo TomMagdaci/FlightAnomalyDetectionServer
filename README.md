@@ -4,7 +4,7 @@ This server finds anomalies in flights using flight's recorded data (TimeSeries 
 The server supports handling of multiple clients simultaneously.
 
 ### The server's working method:
-  The server has specific CLI (Command Line Interface) which will be sent to the client first when it connects and after processing each request.
+  There is a specific CLI (Command Line Interface) which will be sent to the client first when it connects and after processing each request.
   The CLI:
   ![image](https://user-images.githubusercontent.com/71394850/132982278-bae3db93-b5d7-45d1-9029-1668c29a275d.png)
   Each time the client receives a menu, he should replied the number that symbolizes the desired choice and additional information according to his choice.
