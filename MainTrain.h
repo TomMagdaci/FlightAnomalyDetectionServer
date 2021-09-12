@@ -7,6 +7,6 @@
 
 #include "Server.h"
 
-int mainTrainEX6();
+int mainTrain();
 
 #endif //EVENDERECH3_EX5_MAINTRAIN_EX6_H
