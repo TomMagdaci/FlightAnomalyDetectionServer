@@ -1,5 +1,5 @@
 #  FlightAnomalyDetectorServer
-I am thrilled to present my flight's anomaly detector server!.
+I am thrilled to present my flight's anomaly detector server.
 This server finds anomalies in flights using flight's recorded data (TimeSeries csv file).
 It supports multiple clients connections simultaneously.
 
