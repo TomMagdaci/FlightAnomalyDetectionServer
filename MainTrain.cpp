@@ -15,7 +15,7 @@
 #include <string.h>
 //#include <unistd.h>
 #include <time.h>
-//#include "Server.h"
+#include "Server.h"
 
 #include "MainTrain.h"
 
@@ -151,7 +151,7 @@ size_t check(string outputFile,string expectedOutputFile){
 }
 
  
-int mainTrain(){
+int main(){
 	srand (time(NULL));
 	int port=5000+ rand() % 1000;		
 	string outputFile1="output_menu";
