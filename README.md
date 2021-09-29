@@ -18,7 +18,7 @@ Notes:
   ![image](https://user-images.githubusercontent.com/71394850/132984618-be0d9967-0ff9-471e-b460-c93544e897af.png)
   .
 
-There is an example of the server running including handling of two different clients in the MainTrain files.
+There is an example of the server running including handling of two different clients in the main file.
 
 
 
