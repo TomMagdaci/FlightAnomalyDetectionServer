@@ -10,7 +10,8 @@ This server supports handling of multiple clients simultaneously.
   Each time the client receives a menu, he should replied the number that symbolizes the desired choice and additional information according to his choice.
 
 Notes:
-- The server should be run in specific port in which it listens for accepting new clients. (you can see an example in the mainTrain files).
+- The server should be run on linux.
+- The server should be run with specific port in which it listens for accepting new clients. (you can see a run example in the main file).
 - An example of a properly TimeSeries csv file: ![image](https://user-images.githubusercontent.com/71394850/132982828-e1dc6b02-70d2-4f37-ac93-194a396ce79b.png)
 - For the CLI commands implenetation the following design patterns were used: Command and Bridge.
   Also it is described in the following uml:
