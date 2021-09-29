@@ -24,11 +24,12 @@ Server::Server(int port)throw (const char*){
 
 
 void Server::start(ClientHandler& ch)throw(const char*){
-     t = new thread([&ch, this]() {
-            while(!this->Stop) {
+        t = new thread([&ch, this]() {
+            while (!this->Stop) {
                 socklen_t cSize = sizeof(client);
+                alarm(5);
                 int clientFD = ::accept(this->fd, (struct sockaddr *) &client, &cSize);
-                if(clientFD <0){
+                if (clientFD < 0) {
                     throw "accept failed";
                 }
                 ch.handle(clientFD);
