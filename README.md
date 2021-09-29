@@ -1,7 +1,7 @@
 #  FlightAnomalyDetectorServer
-I am thrilled to present my flights anomaly detection server.
-This server finds anomalies in flights using flight's recorded data (TimeSeries csv file).
-The server supports handling of multiple clients simultaneously.
+I am thrilled to present the flight anomaly detection server.
+This server finds anomalies using flight's recorded data (TimeSeries csv file).
+This server supports handling of multiple clients simultaneously.
 
 ### The working method:
   The server working options are listed in a specific CLI (Command Line Interface) which will be sent to the client first when it connects and after processing each request.
